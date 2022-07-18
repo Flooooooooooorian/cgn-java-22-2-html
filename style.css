@@ -1,0 +1,21 @@
+li {
+    color: blue
+}
+
+#second-item {
+    color: pink;
+}
+
+li.further-items,
+li.bla,
+h1 {
+    font-size: 14px;
+}
+
+div li {
+
+}
+
+.blubb {
+    color: aqua;
+}
