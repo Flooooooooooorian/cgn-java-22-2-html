@@ -1,21 +1,26 @@
-li {
-    color: blue
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #58bf7b;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
-#second-item {
-    color: pink;
+footer {
+    background-color: beige;
 }
 
-li.further-items,
-li.bla,
-h1 {
-    font-size: 14px;
+main {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
-div li {
-
+p {
+    border: 2px red solid;
 }
 
-.blubb {
-    color: aqua;
+#end {
+    justify-self: end;
 }
